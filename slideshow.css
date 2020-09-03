@@ -1,0 +1,94 @@
+#slides{
+    width: 1000%;
+    height: 100%;
+    position: relative;
+    left: 0%;
+    transition: .3s;
+    overflow: hidden;
+}
+#mslides{
+    width: 400%;
+    height: 100%;
+    left: 0%;
+    position: relative;
+    transition: .3s;
+    overflow: hidden;
+}
+.slide{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.mslide{
+    width: 12.5%;
+    margin: 0 1px;
+    height: 100%;
+    float: left;
+}
+.mslide > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+.slide > img{
+    width: 100%;
+    height: 100%;
+}
+#right_move{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    background: url('../img/slideshow/right.png') rgba(71, 71, 71, 0.5) no-repeat;
+    background-size: 70%;
+    background-position: 50% 50%;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+    visibility: hidden;
+}
+#right_move:hover{
+    background-color: rgba(36, 36, 36, 0.8);
+}
+#left_move{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    background: url('../img/slideshow/left.png') rgba(71, 71, 71, 0.5) no-repeat;
+    background-size: 70%;
+    background-position: 50% 50%;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    visibility: hidden;
+}
+#left_move:hover{
+    background-color: rgba(36, 36, 36, 0.8);
+}
+.slideshow:hover > #right_move{
+    visibility: visible;
+}
+.slideshow:hover > #left_move{
+    visibility: visible;
+}
+.dot_counter{
+    text-align: center;
+    position: absolute;
+    right: 2%;
+    top: 92.5%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    margin: 0 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+    background-color: #e62e04;
+}

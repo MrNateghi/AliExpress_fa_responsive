@@ -1,0 +1,70 @@
+@media screen and (max-width: 1200px) {
+    .nav .nav_none_sec{
+        display: block;
+        width: 500px;
+        margin: 0 auto 0;
+    }
+    .nav .nav_none_frst{
+        display: none;
+    }
+    .search{
+        width: 55%;
+    }
+    .logo, .search, .shop{
+        float: left;
+    }
+    .margin_header{
+        width: 700px;
+        margin: 15px auto 0;
+    }
+    .shop > span {
+        right: 0;
+    }
+    .logo{
+        background: url('../img/png/2.png') no-repeat 0 -1160px;
+        margin: 0 0 0 10px;
+        width: 180px;
+    }
+    .main > .overf{
+        display: none;
+    }
+    .main_content{
+        width: 900px;
+    }
+    .join{
+        width: 30%;
+    }
+    .slides{
+        width: 68%;
+    }
+    .hot_link > ul{
+        width: 500px !important;
+    }
+    .hot_link .category2{
+        display: block;
+        margin: 0;
+        font-size: 14px;
+    }
+    .hot_link{
+        width: 880px;
+        margin: 0 auto 0;
+    }
+    .category2:hover > .cat2_sub{
+        display: block;
+    }
+    .submenu > ul{
+        width: 15%;
+    }
+    #sub_img {
+        width: 30%;
+        height: 210px;
+        float: left;
+    }
+    .sub_info{
+        margin: 0;
+        font-size: 12px;
+    }
+    .si{
+        margin: 0 3px 0;
+    }
+}

@@ -1,0 +1,166 @@
+.nav_none_sec {
+  display: none;
+}
+.nav > ul {
+  width: 1200px;
+  padding: 0;
+  margin: 0 auto 0;
+}
+.nav > ul > li {
+  padding: 10px 3px;
+  float: right;
+  list-style: none;
+  font-family: "light";
+  font-size: 12px;
+  position: relative;
+}
+.nav .down {
+  background: url("../img/png/2.png") no-repeat 0 -1271px;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 8px;
+  height: 5px;
+}
+.nav .nav_icon {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 16px;
+  height: 16px;
+}
+.nav .icon1 {
+  background: url("../img/png/2.png") no-repeat 0 -851px;
+}
+.nav > ul > li:hover > a {
+  color: #ff4747 !important;
+}
+.nav > ul > li:hover > .icon1 {
+  background: url("../img/png/2.png") no-repeat 0 -887px;
+}
+.nav > ul > li:hover > .down {
+  background: url("../img/png/2.png") no-repeat 0 -1296px;
+}
+.nav > ul > li > a {
+  text-decoration: none;
+  padding: 0 25px;
+  color: #333;
+}
+.icon2 {
+  background: url("../img/png/2.png") no-repeat 0 -1377px;
+}
+.nav > ul > li:hover > .icon2 {
+  background: url("../img/png/2.png") no-repeat 0 -1413px;
+}
+.icon3 {
+  background: url("../img/png/icons8-iran-48.png") no-repeat;
+  background-size: 150% 140%;
+  background-position: -4px -3px;
+}
+.icon4 {
+  background: url("../img/png/2.png") no-repeat 0 -923px;
+}
+.nav > ul > li:hover > .icon4 {
+  background: url("../img/png/2.png") no-repeat 0 -959px;
+}
+.sub:hover {
+  background-color: #fff;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.04);
+}
+.submenu {
+  width: 200px;
+  height: 190px;
+  background-color: #fff;
+  position: absolute;
+  top: 41px;
+  right: 0;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.04);
+  z-index: 10;
+  visibility: hidden;
+}
+.nav > ul > li:hover > div {
+  visibility: visible;
+}
+.search_bar {
+  width: 86%;
+  height: 60%;
+  float: left;
+  direction: rtl;
+  font-family: "main";
+  font-size: 13px;
+  border: 2px solid #ff4747;
+  border-radius: 4px 0 0 4px;
+  color: #333;
+  padding: 2px 5px;
+  outline: none;
+}
+.search_icon {
+  width: 40px;
+  height: 60%;
+  float: left;
+  background: url("../img/png/2.png") no-repeat 0 -1321px;
+  background-color: #ff4747;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+.search > ul {
+  margin: 0 60px 0 0;
+  padding: 0;
+  display: block;
+}
+.search > ul > li {
+  list-style: none;
+  font-size: 9px;
+  padding: 5px 2px;
+  margin-top: 0;
+  float: right;
+}
+.search > ul > li > a {
+  list-style: none;
+  text-decoration: none;
+  color: #333;
+  padding: 0 2px;
+}
+.search > ul > li > a:hover {
+  text-decoration: underline;
+  color: #ff4747;
+}
+.hot_link > ul {
+  width: 700px;
+  height: 100%;
+  margin: 0 auto 0;
+  padding: 0;
+}
+.hot_link > ul > li {
+  float: right;
+  list-style: none;
+  padding: 2px 20px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+.hot_link > ul > li:hover {
+  color: #ff4747;
+}
+.category2 {
+  display: none;
+  width: 220px;
+  height: 100%;
+  background: url("../img/png/1.png") #eceaea no-repeat 0 0;
+  background-size: 20px 18px;
+  background-position: 95% 45%;
+  float: right;
+  border-radius: 5px 5px 0 0;
+  text-align: right;
+  padding: 3px 40px 0 0;
+  position: relative;
+}
+.cat2_sub{
+  display: none;
+  width: 220px;
+  height: 350px;
+  background-color: #fff;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  z-index: 600;
+}
